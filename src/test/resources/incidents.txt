@@ -1,0 +1,13 @@
+Shelters:
+    Port City Marina            :   34.2461, -77.95189
+    Wilmington Marine Center    :   34.1706, -77.949
+    Carolina Beach Yacht Club   :   34.0583, -77.88849
+
+Responders:
+    Responder1:     34.24352, -77.88472
+    Responder2:     34.16616, -77.88472
+
+evac1:   34.16343, -77.90648
+evac2:   34.16906, -77.91329
+evac3:   34.24068, -77.91596
+evac4:   34.23614, -77.92523
