@@ -1,0 +1,36 @@
+[
+  {
+    "id": "b5fdc532-a2f6-47a2-b08d-ea02e658d424",
+    "messageType": "IncidentReportedEvent",
+    "invokingService": "IncidentService",
+    "timestamp": 1601919666141,
+    "body": {
+      "id": "2c65ff74-6fad-4a62-b27c-09efd0efdf17",
+      "lat": 34.09013,
+      "lon": -77.89987,
+      "numberOfPeople": 5,
+      "medicalNeeded": false,
+      "timestamp": 1601919666132,
+      "victimName": "Reagan Wilson",
+      "victimPhoneNumber": "(828) 555-1136",
+      "status": "REPORTED"
+    }
+  },
+  {
+    "id": "c5fdc532-a2f6-47a2-b08d-fa02e658d424",
+    "messageType": "IncidentReportedEvent",
+    "invokingService": "IncidentService",
+    "timestamp": 1601919666141,
+    "body": {
+      "id": "3c65ff74-6fad-4a62-b27c-09efd0efdf17",
+      "lat": 34.09013,
+      "lon": -77.89987,
+      "numberOfPeople": 3,
+      "medicalNeeded": true,
+      "timestamp": 1601919666132,
+      "victimName": "Jacob Barber",
+      "victimPhoneNumber": "(828) 555-1136",
+      "status": "REPORTED"
+    }
+  }
+]

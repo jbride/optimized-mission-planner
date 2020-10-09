@@ -1,0 +1,26 @@
+[
+  {
+    "id": "34",
+    "name": "Leonardo Echevarria",
+    "phoneNumber": "(828) 555-2789",
+    "latitude": 34.24352,
+    "longitude": -77.88472,
+    "boatCapacity": 10,
+    "medicalKit": false,
+    "available": true,
+    "person": false,
+    "enrolled": true
+  },
+  {
+    "id": "35",
+    "name": "Jose Hernandez",
+    "phoneNumber": "(828) 555-1972",
+    "latitude": 34.16616,
+    "longitude": -77.88472,
+    "boatCapacity": 9,
+    "medicalKit": true,
+    "available": true,
+    "person": false,
+    "enrolled": true
+  }
+]

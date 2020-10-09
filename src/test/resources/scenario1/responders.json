@@ -1,0 +1,14 @@
+[
+  {
+    "id": "34",
+    "name": "Leonardo Echevarria",
+    "phoneNumber": "(828) 555-2789",
+    "latitude": 34.24352,
+    "longitude": -77.88472,
+    "boatCapacity": 10,
+    "medicalKit": false,
+    "available": true,
+    "person": false,
+    "enrolled": true
+  }
+]
