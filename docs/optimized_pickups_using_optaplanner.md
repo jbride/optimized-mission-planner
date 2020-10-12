@@ -70,25 +70,33 @@
   
 ### 4.3.3. Single Pickup, Two Responders
 * **Scenario:**
+
     ![](images/scenario3.png)
+    
 * **Expectations:**
   J. Hernandez picks-up evacuees of single incident and transports to Wilmington Marine Center
   
 ### 4.3.4. Multi Pickup, Two Responders
 * **Scenario:**
+
   ![](images/scenario4.png)
+  
 * **Expectations:**
   Each responder closest to set of incidents picksup corresponding evacuees and transports to closest Evacuation Center
   
 ### 4.3.5. Multi Pickup, One Responder, Boat Capacity Exceeded
 * **Scenario:**
+
   ![](images/scenario5.png)
+  
 * **Expectations:**
   J. Hernandez picks-up evacuees closest to him and then either drops off at Wilmington Marine Center or picks up Jessica Adams and drops off at Port City Marina
   
 ### 4.3.6. Multi Pickup, Two Responders, One Medical
 * **Scenario:**
+
     ![](images/scenario4.png)
+    
 * **Expectations:**
   Jose Hernandez picks up J. Adams, Stacy Jefferson & J. Barber
   Leonardo Echevarria picks up Reagan Wilson
