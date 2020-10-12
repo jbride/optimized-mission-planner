@@ -1,0 +1,19 @@
+[ {
+  "id" : "1",
+  "name" : "Port City Marina",
+  "lon" : -77.9519,
+  "lat" : 34.2461,
+  "rescued" : 0
+}, {
+  "id" : "2",
+  "name" : "Wilmington Marine Center",
+  "lon" : -77.949,
+  "lat" : 34.1706,
+  "rescued" : 0
+}, {
+  "id" : "3",
+  "name" : "Carolina Beach Yacht Club",
+  "lon" : -77.8885,
+  "lat" : 34.0583,
+  "rescued" : 0
+} ]

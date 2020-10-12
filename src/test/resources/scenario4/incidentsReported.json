@@ -32,5 +32,39 @@
       "victimPhoneNumber": "(828) 555-1136",
       "status": "REPORTED"
     }
+  },
+  {
+    "id": "c6fdc532-a2f6-47a2-b08d-ea02e658d424",
+    "messageType": "IncidentReportedEvent",
+    "invokingService": "IncidentService",
+    "timestamp": 1601919666141,
+    "body": {
+      "id": "3c65ff74-6fad-4a62-b27c-09efd0efdf17",
+      "lat": 34.24068,
+      "lon": -77.91596,
+      "numberOfPeople": 6,
+      "medicalNeeded": true,
+      "timestamp": 1601919666132,
+      "victimName": "Stacy Jefferson",
+      "victimPhoneNumber": "(828) 555-1136",
+      "status": "REPORTED"
+    }
+  },
+  {
+    "id": "d5fdc532-a2f6-47a2-b08d-fa02e658d424",
+    "messageType": "IncidentReportedEvent",
+    "invokingService": "IncidentService",
+    "timestamp": 1601919666141,
+    "body": {
+      "id": "4c65ff74-6fad-4a62-b27c-09efd0efdf17",
+      "lat": 34.23614,
+      "lon": -77.92523,
+      "numberOfPeople": 3,
+      "medicalNeeded": true,
+      "timestamp": 1601919666132,
+      "victimName": "Jessica Adams",
+      "victimPhoneNumber": "(828) 555-1136",
+      "status": "REPORTED"
+    }
   }
 ]
