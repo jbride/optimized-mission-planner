@@ -20,6 +20,9 @@
 
 The **incident response problem** consists of a set of potential incidents (with rescuees waiting for help) and a limited number of **shelters (evacuation centers)** and **responders** that need to be assigned on a **rescue mission**. 
 
+> Folloing the **VRP** line...
+> determine the optimal order to rescue a number of affected people (rescuees) to number of destination (evacuation centers) with a fleet of boats (responders).
+
 ## 1.2. Purpose
 The goal is to assign a rescue mission to the nearest available responder, to minimize the route distance beteween the incident location and a shelter destination, and to maximize the number of rescuees on board of a responder's boat considering its maximum capacity.
 
