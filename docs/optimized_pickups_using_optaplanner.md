@@ -51,7 +51,9 @@
 ### 4.3.1. Single Pickup, One Responder
 
 * **Scenario:**
+
   1 incident with 5 evacuees and no medical required
+
   1 responder with boat capacity of 10 and no first aid kit
 
   ![](images/scenario1.png)
@@ -62,9 +64,13 @@
 
 ### 4.3.2. Multi Pickup, One Responder, 
 * **Scenario:**
+
   2 incidents with 8 evacuees total and no medical required
+  
   1 responder with boat capacity of 10 and no first aid kit
+  
   ![](images/scenario2.png)
+  
 * **Expectations:**
   J. Hernandez picks-up evacuees of both incidents and transports to Wilmington Marine Center
   
@@ -100,10 +106,6 @@
 * **Expectations:**
   Jose Hernandez picks up J. Adams, Stacy Jefferson & J. Barber
   Leonardo Echevarria picks up Reagan Wilson
-
-# 5. Appendix
-* **Scenario:**
-* **Expectations:**
 
 
 
