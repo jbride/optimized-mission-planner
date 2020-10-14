@@ -16,27 +16,35 @@
 - [5. Appendix](#5-appendix)
   
 # 1. Overview
-## 1.1. Problem Statement
 
-The **incident response problem** consists of a set of potential incidents (with rescuees waiting for help) and a limited number of **shelters (evacuation centers)** and **responders** that need to be assigned on a **rescue mission**. 
+## 1.1. Background
 
-> Folloing the **VRP** line...
-> determine the optimal order to rescue a number of affected people (rescuees) to number of destination (evacuation centers) with a fleet of boats (responders).
+Please see [section 1.3](https://www.erdemo.io/gettingstarted/#13-scenario) of the ER-Demo Getting Started Guide for a glossary of terms.
 
-## 1.2. Purpose
-The goal is to assign a rescue mission to the nearest available responder, to minimize the route distance beteween the incident location and a shelter destination, and to maximize the number of rescuees on board of a responder's boat considering its maximum capacity.
+In the 2.x releases of the Emergency Response demo, *responders* are assigned to a single *incident* in a strict, deterministic manner using *technical rules*.  At runtime, these *technical rules* execute in the rules engine of Red Hat's Decision Manager product.
 
-You can see a sample **incident response problem** on the picture below. Red pins  represent incident locations, purple circles represent potential responder boats and grey circles represent shelter destinations (evacuation centers).
+Because a responder can only pick up evacuees from a single incident at a time, utilization of the full boat capacity of a responder is typically less than optimal.
+
+You can see a sample **incident response problem** in the diagram below. Red pins  represent incident locations, purple circles represent potential responder boats and grey circles represent shelter destinations (evacuation centers).
 
 ![](images/scenario5.png)
 
-To understand the problem better, see the different scenarios depicted in section 4.3.
+In the 2.x releases of the Emergency Response demo, a total of 4 missions would be executed in serial in the above scenario.  Each mission would assign the responder to a single incident at a time.
 
-A single responder has a **boat capacity** that only allows it to get on board a limited number of rescuees, so the **number of people** (and possibly the need for **medical assistance**) affected by the reported incident has to be informed. A list of **shelter destinations** that a responder can move rescuees to have been defined by the Incident Commander. Each shelter destination has its geo coordinates (lat & lon) that are used to determine its distance from the incident location.
+## 1.2. Purpose
 
-The challenge is create a mission consisting of an optimized set of incidents that maximizes responder boat capacity and other considerations such as distance to evacuation centers and medical attention requirements. 
+The goal of this implementation is to create an ER-Demo mission consisting of an optimized set of incidents that maximizes responder boat capacity and other considerations such as distance to evacuation centers and medical attention requirements. 
+
+multiple ER-Demo missions assigned to multiple available responders using the closest incident pickup location and the best route to the closest shelter destination.
+
+This implementation resolves a variety of different use-cases as depicted in section 4 of this document.
+
+
 
 # 2. Architecture
+
+[Planner Model](https://lucid.app/lucidchart/eb96d556-7843-4784-81d6-4fac81235fb9/edit?page=.sCE-U~NQ8yl#)
+
 # 3. Impact Analysis
 # 4. Test Cases
 
