@@ -17,7 +17,25 @@
   
 # 1. Overview
 ## 1.1. Problem Statement
+
+The **incident response problem** consists of a set of potential incidents (with rescuees waiting for help) and a limited number of **shelters (evacuation centers)** and **responders** that need to be assigned on a **rescue mission**. 
+
+> Folloing the **VRP** line...
+> determine the optimal order to rescue a number of affected people (rescuees) to number of destination (evacuation centers) with a fleet of boats (responders).
+
 ## 1.2. Purpose
+The goal is to assign a rescue mission to the nearest available responder, to minimize the route distance beteween the incident location and a shelter destination, and to maximize the number of rescuees on board of a responder's boat considering its maximum capacity.
+
+You can see a sample **incident response problem** on the picture below. Red pins  represent incident locations, purple circles represent potential responder boats and grey circles represent shelter destinations (evacuation centers).
+
+![](images/scenario5.png)
+
+To understand the problem better, see the different scenarios depicted in section 4.3.
+
+A single responder has a **boat capacity** that only allows it to get on board a limited number of rescuees, so the **number of people** (and possibly the need for **medical assistance**) affected by the reported incident has to be informed. A list of **shelter destinations** that a responder can move rescuees to have been defined by the Incident Commander. Each shelter destination has its geo coordinates (lat & lon) that are used to determine its distance from the incident location.
+
+The challenge is create a mission consisting of an optimized set of incidents that maximizes responder boat capacity and other considerations such as distance to evacuation centers and medical attention requirements. 
+
 # 2. Architecture
 # 3. Impact Analysis
 # 4. Test Cases
